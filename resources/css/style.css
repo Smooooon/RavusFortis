@@ -62,6 +62,43 @@ h2 {
     letter-spacing: 1px;
 }
 
+h2:after{
+    display: block;
+    content: " ";
+    background-color: #2980b9;
+    height: 2px;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+h3 {
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+
+/* ------------ PARAGRAPHS --------- */
+.long-copy {
+    line-height: 145%;
+    width: 70%;
+    /* centers text */
+    margin-left: 15%;
+    text-align: center;
+} 
+
+.box p {
+    font-size: 90%;
+    line-height: 145%;
+}
+
+/* ------------ ICONS --------- */
+.icon-big {
+    display: block;
+    font-size: 350%;
+    color: #2980b9;
+    margin-bottom: 10px;
+}
+
 /* ------------ LINKS --------- */
 a:link,
 a:visited {
@@ -174,4 +211,12 @@ header{
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 2px solid #2980b9;
+}
+
+/* --------------------------------------- */
+/* FEATURES */
+/* --------------------------------------- */
+
+.section-features .long-copy {
+    margin-bottom: 30px;
 }
